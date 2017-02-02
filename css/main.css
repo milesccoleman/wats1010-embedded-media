@@ -1,10 +1,88 @@
-/******************************************************************************
- * WATS1010: Introduction to Web Development
- * Embedded Media Assignment
- *
- * Site Styles
- *****************************************************************************/
-
- html {
-     color: green;
+ html { 
+   margin: 30px; 
  }
+head { 
+}
+body { 
+}
+header { 
+  float: center; 
+}
+h1 { 
+  text-align: center; 
+  font-size: 60px; 
+}
+p.subtitle {
+  text-align: center; 
+  font-style: italic; 
+}
+h2 {
+}
+h3 {
+}
+p { 
+}
+ul.main-nav li {
+   border-style: inset;  
+   border-color: blue; 
+   border-width: 1px; 
+   border-radius: 8px; 
+	 list-style-type: none; 
+   text-align: center; 
+   display: inline; 
+   text-decoration: none; 
+	 padding: .2em 1em; 
+	 text-color: black; 
+   padding-bottom: 10px; 
+   padding-top: 10px; 
+}
+ul.main-nav li:hover { 
+	background: rgba(76, 175, 200, 0.3); 
+}
+#social {
+  border-style: solid; 
+  border-color: blue; 
+  border-width: 1px; 
+  background: rgba(200, 25, 25, 0.3);
+  padding: 10px; 
+  position: fixed; 
+}
+#watch {
+  border-style: solid; 
+  border-color: blue; 
+  border-width: 1px; 
+  float: left; 
+  background: rgba(76, 175, 80, 0.3);
+  padding: 10px; 
+  width: 750px; 
+  float: right; 
+}
+#listen {
+  border-style: solid; 
+  border-color: blue; 
+  border-width: 1px; 
+  float: center; 
+  background: rgba(76, 175, 80, 0.3);
+  padding: 10px; 
+  width: 750px; 
+  float: right; 
+}
+#about {
+  border-style: solid; 
+  border-color: blue; 
+  border-width: 1px; 
+  float: center; 
+  background: rgba(76, 175, 80, 0.3);
+  padding: 10px; 
+  width: 750px; 
+  float: right; 
+}
+img.headshot {
+}
+footer {
+  position: absolute;
+  margin: auto; 
+  padding: 1rem;
+  background-color: #efefef;
+  text-align: center;
+}
